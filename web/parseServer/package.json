@@ -1,0 +1,36 @@
+{
+  "name": "parse-server-example",
+  "version": "1.4.0",
+  "description": "An example Parse API server using the parse-server module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ParsePlatform/parse-server-example"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.11.x",
+    "kerberos": "~0.0.x",
+    "nodemailer": "^4.6.2",
+    "parse": "~1.8.0",
+    "parse-server": "*",
+    "webpack": "^4.4.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "webpack --config webpack.dev.config.js",
+    "prod": "webpack -p --config webpack.prod.config.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "webpack-cli": "^2.0.13"
+  }
+}

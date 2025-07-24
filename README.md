@@ -1,2 +1,2 @@
 # Kraken
-My base configuration's files
+My base configuration files
